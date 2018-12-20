@@ -9,11 +9,11 @@ import org.bson.Document;
 public class DataBaseManager {
     private static DataBaseManager sInstance;
 
-    private static final String DB_HOST = "ds113169.mlab.com";
-    private static final int DB_PORT = 13169;
-    private static final String DB_NAME = "heroku_8f7sgf4c";
-    private static final String DB_USER = "admin919";
-    private static final String DB_PASSWORD = "admin919_passs";
+    private static final String DB_HOST = "ds131711.mlab.com";
+    private static final int DB_PORT = 31711;
+    private static final String DB_NAME = "heroku_3bln0m72";
+    private static final String DB_USER = "Virus2310";
+    private static final String DB_PASSWORD = "Virus231098";
 
     private static final String DB_URL = "mongodb://" + DB_USER + ":" + DB_PASSWORD + "@" + DB_HOST + ":" + DB_PORT + "/" + DB_NAME;
 
